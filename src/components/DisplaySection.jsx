@@ -13,4 +13,3 @@ export default function DisplaySection() {
     </div>
   );
 }
-//hola mundo
