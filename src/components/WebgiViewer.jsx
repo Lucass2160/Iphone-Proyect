@@ -1,10 +1,4 @@
-import React, {
-  useRef,
-  useState,
-  useCallback,
-  forwardRef,
-  useImperativeHandle,
-} from "react";
+import React, { useRef, useCallback } from "react";
 
 import {
   ViewerApp,
@@ -16,7 +10,6 @@ import {
   SSAOPlugin,
   BloomPlugin,
   GammaCorrectionPlugin,
-  mobileAndTabletCheck,
 } from "webgi";
 
 import { gsap } from "gsap";
