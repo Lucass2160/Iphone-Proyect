@@ -89,5 +89,5 @@ export default function scrollAnimation(position, target, onUpdate) {
         scrub: 2,
         immediateRender: false,
       },
-    }); asda
+    }); 
 }
