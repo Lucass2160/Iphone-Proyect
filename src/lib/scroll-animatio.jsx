@@ -1,6 +1,5 @@
-import React from "react";
 import { gsap } from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger"; // Import ScrollTrigger separately
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,7 +12,7 @@ export default function scrollAnimation(position, target, onUpdate) {
     z: -5.93,
     scrollTrigger: {
       trigger: ".sound-section",
-      start: "top bottom", // Corrected value: "top bottom"
+      start: "top bottom",
       end: "top",
       scrub: 2,
       immediateRender: false,
@@ -23,11 +22,11 @@ export default function scrollAnimation(position, target, onUpdate) {
     .to(target, {
       x: 1.52,
       y: 0.77,
-      z: -1.08, // Added the missing dot for class selector
+      z: -1.08,
       opacity: 0,
       scrollTrigger: {
         trigger: ".sound-section",
-        start: "top bottom", // Corrected value: "top bottom"
+        start: "top bottom",
         end: "top",
         scrub: 2,
         immediateRender: false,
@@ -90,5 +89,5 @@ export default function scrollAnimation(position, target, onUpdate) {
         scrub: 2,
         immediateRender: false,
       },
-    });
+    }); das
 }
